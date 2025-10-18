@@ -1,0 +1,72 @@
+body {
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    background-color: #f0f0f5; /* Light background */
+}
+
+.container {
+    background-color: #ffffff;
+    padding: 30px 40px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    max-width: 400px;
+}
+
+h1 {
+    color: #333;
+    margin-bottom: 30px;
+}
+
+#activity-display {
+    border: 2px dashed #99aaff;
+    padding: 20px;
+    margin-bottom: 25px;
+    min-height: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    background-color: #f7f9ff;
+}
+
+.activity-name {
+    font-size: 1.4em;
+    font-weight: bold;
+    color: #4CAF50; /* Green highlight for the activity */
+    margin: 0;
+}
+
+.details {
+    font-size: 0.85em;
+    color: #777;
+    margin-top: 5px;
+}
+
+#generate-btn {
+    background-color: #4CAF50; /* Green button */
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 15px;
+    cursor: pointer;
+    border-radius: 6px;
+    transition: background-color 0.3s;
+}
+
+#generate-btn:hover {
+    background-color: #45a049;
+}
+
+.filters label, .filters select {
+    margin-right: 10px;
+}
